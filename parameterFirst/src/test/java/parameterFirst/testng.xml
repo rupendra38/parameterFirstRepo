@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Test">
+  <parameter name="data" value="Ruendra"/>
+
+  <parameter name="data1" value="kushwah"/>
+  <classes>
+            <class name="parameterFirst.DemoParameter">     </class>
+              <class name="parameterFirst.DataProvideDemo">     </class>
+              <class name="parameterFirst.DataPro">     </class>
+                           <class name="parameterFirst.ParaDemo">     </class>
+             
+  
+  </classes>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
