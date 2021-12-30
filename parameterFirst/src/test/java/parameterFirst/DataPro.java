@@ -24,7 +24,14 @@ public class DataPro {
 		System.out.println(a +" "+b);
 	}
 	
-	
+	@DataProvider(name="DP")
+	public Object[][] getDataProvider()
+	{
+		Object[][] data= {{122,20},{30,65}};
+		
+		return data;
+		
+	}
 	
 
 //	@DataProvider
